@@ -1,4 +1,22 @@
+{% load staticfiles %}
 <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Trend Chart (Area + Line)</title>
+		<link rel="stylesheet" href="{% static 'css/app.css' %}">
+	</head>
+
+	<body>
+	<h1>Trend Chart (Area + Line)</h1>
+	</body>
+	
+	<script src="{% static 'js/d3.js' %}" ></script>
+	<script src="{% static 'js/app.js' %}" ></script>
+</html>
+
+
+<!--
 <html>
 <head>
     <meta charset="utf-8">
@@ -6,6 +24,8 @@
     <link href="//fonts.googleapis.com/css?family=Lemon" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="//djangogirlstaipei.github.io/assets/css/style.css" rel="stylesheet" type="text/css">
+
+    <script src="{% static 'd3.js' %}" charset="utf-8"></script>
 </head>
 <body>
     <div class="header">
@@ -44,3 +64,4 @@
     </div>
 </body>
 </html>
+-->
