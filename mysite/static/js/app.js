@@ -200,7 +200,7 @@ function makeChart (data, markers) {
       yAxis = d3.svg.axis().scale(y).orient('left')
                 .innerTickSize(-chartWidth).outerTickSize(0).tickPadding(10);
 
-  var svg = d3.select('body').append('svg')
+  var svg = d3.select('#d3-chart').append('svg')
     .attr('width',  svgWidth)
     .attr('height', svgHeight)
     .append('g')
